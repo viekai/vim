@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/usr/share/alicert/alicert-package'
+let g:netrw_dirhist_2='/home/work/code/android2.3/out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates'
+let g:netrw_dirhist_3='/home/work/code/android2.3/vmkid/aot/analyse/test/profile'
+let g:netrw_dirhist_4='/home/work/code/android2.3/vmkid/aot/analyse/test/file'
+let g:netrw_dirhist_5='/home/work/code/android4.0/vmkid/aot/analyse/test/file'
+let g:netrw_dirhist_6='/mnt/hgfs/Dropbox/dropboxShare'
+let g:netrw_dirhist_7='/mnt/hgfs/Dropbox/dropboxShare/RECORD'

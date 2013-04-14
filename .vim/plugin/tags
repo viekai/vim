@@ -1,0 +1,591 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<C-Down>	minibufexpl.vim	/^  noremap <C-Down>  <C-W>j$/;"	m	language:Vim
+<C-H>	minibufexpl.vim	/^  noremap <C-H> <C-W>h$/;"	m	language:Vim
+<C-J>	minibufexpl.vim	/^  noremap <C-J> <C-W>j$/;"	m	language:Vim
+<C-K>	minibufexpl.vim	/^  noremap <C-K> <C-W>k$/;"	m	language:Vim
+<C-L>	minibufexpl.vim	/^  noremap <C-L> <C-W>l$/;"	m	language:Vim
+<C-Left>	minibufexpl.vim	/^  noremap <C-Left>  <C-W>h$/;"	m	language:Vim
+<C-Right>	minibufexpl.vim	/^  noremap <C-Right> <C-W>l$/;"	m	language:Vim
+<C-S-TAB>	minibufexpl.vim	/^  noremap <C-S-TAB> :call <SID>CycleBuffer(0)<CR>:<BS>$/;"	m	language:Vim
+<C-S-TAB>	minibufexpl.vim	/^  noremap <C-S-TAB> <C-W>W$/;"	m	language:Vim
+<C-TAB>	minibufexpl.vim	/^  noremap <C-TAB>   :call <SID>CycleBuffer(1)<CR>:<BS>$/;"	m	language:Vim
+<C-TAB>	minibufexpl.vim	/^  noremap <C-TAB>   <C-W>w$/;"	m	language:Vim
+<C-Up>	minibufexpl.vim	/^  noremap <C-Up>    <C-W>k$/;"	m	language:Vim
+<Leader>mbc	minibufexpl.vim	/^  map <unique> <Leader>mbc <Plug>CMiniBufExplorer$/;"	m	language:Vim
+<Leader>mbe	minibufexpl.vim	/^  map <unique> <Leader>mbe <Plug>MiniBufExplorer$/;"	m	language:Vim
+<Leader>mbt	minibufexpl.vim	/^  map <unique> <Leader>mbt <Plug>TMiniBufExplorer$/;"	m	language:Vim
+<Leader>mbu	minibufexpl.vim	/^  map <unique> <Leader>mbu <Plug>UMiniBufExplorer$/;"	m	language:Vim
+<Plug>CMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>CMiniBufExplorer :call <SID>StopExplorer(1)<CR>:<BS>$/;"	m	language:Vim
+<Plug>MiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>MiniBufExplorer  :call <SID>StartExplorer(1, -1)<CR>:<BS>$/;"	m	language:Vim
+<Plug>TMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>TMiniBufExplorer :call <SID>ToggleExplorer()<CR>:<BS>$/;"	m	language:Vim
+<Plug>UMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>UMiniBufExplorer :call <SID>AutoUpdate(-1)<CR>:<BS>$/;"	m	language:Vim
+<SID>xx	taglist.vim	/^    map <SID>xx <SID>xx$/;"	m	language:Vim
+AddFileInfo	winfileexplorer.vim	/^function! s:AddFileInfo()$/;"	f	language:Vim
+AddHeader	winfileexplorer.vim	/^function! s:AddHeader()$/;"	f	language:Vim
+AddSeparators	winfileexplorer.vim	/^function! s:AddSeparators()$/;"	f	language:Vim
+AddToFavDir	winfileexplorer.vim	/^function! s:AddToFavDir()$/;"	f	language:Vim
+Agrep	grep.vim	/^command! -nargs=* -complete=file Agrep$/;"	c	language:Vim
+AgrepAdd	grep.vim	/^command! -nargs=* -complete=file AgrepAdd$/;"	c	language:Vim
+Agrep_Path	grep.vim	/^    let Agrep_Path = 'agrep'$/;"	v	language:Vim
+AutoUpdate	minibufexpl.vim	/^function! <SID>AutoUpdate(delBufNum)$/;"	f	language:Vim
+Bgrep	grep.vim	/^command! -nargs=* Bgrep$/;"	c	language:Vim
+BgrepAdd	grep.vim	/^command! -nargs=* BgrepAdd$/;"	c	language:Vim
+BottomExplorerWindow	winmanager.vim	/^	command -nargs=0 BottomExplorerWindow :silent call <SID>GotoExplorerWindow('$')$/;"	c	language:Vim
+BuildBufferList	minibufexpl.vim	/^function! <SID>BuildBufferList(delBufNum, updateBufList)$/;"	f	language:Vim
+CMiniBufExplorer	minibufexpl.vim	/^  command! CMiniBufExplorer  call <SID>StopExplorer(1)$/;"	c	language:Vim
+CheckFileType	DoxygenToolkit.vim	/^function! s:CheckFileType()$/;"	f	language:Vim
+CleanUpHistory	winfileexplorer.vim	/^function! <SID>CleanUpHistory()$/;"	f	language:Vim
+CloseWindowsManager	winmanager.vim	/^function! <SID>CloseWindowsManager()$/;"	f	language:Vim
+CodeComplete	code_complete.vim	/^function! CodeComplete()$/;"	f	language:Vim
+CodeCompleteStart	code_complete.vim	/^function! CodeCompleteStart()$/;"	f	language:Vim
+CodeCompleteStop	code_complete.vim	/^function! CodeCompleteStop()$/;"	f	language:Vim
+CountBrackets	DoxygenToolkit.vim	/^function! s:CountBrackets( buffer )$/;"	f	language:Vim
+CycleBuffer	minibufexpl.vim	/^function! <SID>CycleBuffer(forward)$/;"	f	language:Vim
+DEBUG	minibufexpl.vim	/^function! <SID>DEBUG(msg, level)$/;"	f	language:Vim
+DeleteFile	winfileexplorer.vim	/^function! s:DeleteFile() range$/;"	f	language:Vim
+DisplayBuffers	minibufexpl.vim	/^function! <SID>DisplayBuffers(delBufNum)$/;"	f	language:Vim
+DisplayError	wintagexplorer.vim	/^function! <SID>DisplayError()$/;"	f	language:Vim
+DisplayTagsFile	wintagexplorer.vim	/^function! <SID>DisplayTagsFile()$/;"	f	language:Vim
+DoubleClick	winfileexplorer.vim	/^function s:DoubleClick()$/;"	f	language:Vim
+Dox	DoxygenToolkit.vim	/^command! -nargs=0 Dox :call <SID>DoxygenCommentFunc()$/;"	c	language:Vim
+DoxAuthor	DoxygenToolkit.vim	/^command! -nargs=0 DoxAuthor :call <SID>DoxygenAuthorFunc()$/;"	c	language:Vim
+DoxBlock	DoxygenToolkit.vim	/^command! -nargs=0 DoxBlock :call <SID>DoxygenBlockFunc()$/;"	c	language:Vim
+DoxLic	DoxygenToolkit.vim	/^command! -nargs=0 DoxLic :call <SID>DoxygenLicenseFunc()$/;"	c	language:Vim
+DoxUndoc	DoxygenToolkit.vim	/^command! -nargs=1 DoxUndoc :call <SID>DoxygenUndocumentFunc(<q-args>)$/;"	c	language:Vim
+DoxygenAuthorFunc	DoxygenToolkit.vim	/^function! <SID>DoxygenAuthorFunc()$/;"	f	language:Vim
+DoxygenBlockFunc	DoxygenToolkit.vim	/^function! <SID>DoxygenBlockFunc()$/;"	f	language:Vim
+DoxygenCommentFunc	DoxygenToolkit.vim	/^function! <SID>DoxygenCommentFunc()$/;"	f	language:Vim
+DoxygenLicenseFunc	DoxygenToolkit.vim	/^function! <SID>DoxygenLicenseFunc()$/;"	f	language:Vim
+DoxygenUndocumentFunc	DoxygenToolkit.vim	/^function! <SID>DoxygenUndocumentFunc(blockTag)$/;"	f	language:Vim
+EditDir	winfileexplorer.vim	/^function! s:EditDir(...)$/;"	f	language:Vim
+EditDir	winmanager.vim	/^function! <SID>EditDir(event)$/;"	f	language:Vim
+EditEntry	winfileexplorer.vim	/^function! s:EditEntry(movefirst,editcmd)$/;"	f	language:Vim
+EditNextVisibleExplorer	winmanager.vim	/^function! <SID>EditNextVisibleExplorer(grpn, memn, dir, editcmd)$/;"	f	language:Vim
+Egrep	grep.vim	/^command! -nargs=* -complete=file Egrep$/;"	c	language:Vim
+EgrepAdd	grep.vim	/^command! -nargs=* -complete=file EgrepAdd$/;"	c	language:Vim
+Egrep_Path	grep.vim	/^    let Egrep_Path = 'egrep'$/;"	v	language:Vim
+EscapeFilename	winfileexplorer.vim	/^function! s:EscapeFilename(name)$/;"	f	language:Vim
+ExpandTemplate	code_complete.vim	/^function! ExpandTemplate(cword)$/;"	f	language:Vim
+Explore	winfileexplorer.vim	/^		command -n=? -complete=dir Explore :call s:StartExplorer(0, '<a>')$/;"	c	language:Vim
+ExploreInCurrentWindow	winfileexplorer.vim	/^		command -n=? -complete=dir ExploreInCurrentWindow :call <SID>EditDir()$/;"	c	language:Vim
+ExtractFileDate	winfileexplorer.vim	/^function! s:ExtractFileDate(line)$/;"	f	language:Vim
+ExtractFileName	winfileexplorer.vim	/^function! s:ExtractFileName(line)$/;"	f	language:Vim
+ExtractFileSize	winfileexplorer.vim	/^function! s:ExtractFileSize(line)$/;"	f	language:Vim
+ExtractFullFileName	winfileexplorer.vim	/^function! s:ExtractFullFileName(line)$/;"	f	language:Vim
+Fgrep	grep.vim	/^command! -nargs=* -complete=file Fgrep$/;"	c	language:Vim
+FgrepAdd	grep.vim	/^command! -nargs=* -complete=file FgrepAdd$/;"	c	language:Vim
+Fgrep_Path	grep.vim	/^    let Fgrep_Path = 'fgrep'$/;"	v	language:Vim
+FileDateCmp	winfileexplorer.vim	/^function! s:FileDateCmp(line1, line2, direction)$/;"	f	language:Vim
+FileExplorer_IsValid	winfileexplorer.vim	/^function! FileExplorer_IsValid()$/;"	f	language:Vim
+FileExplorer_Start	winfileexplorer.vim	/^function! FileExplorer_Start()$/;"	f	language:Vim
+FileExplorer_WrapUp	winfileexplorer.vim	/^function! FileExplorer_WrapUp()$/;"	f	language:Vim
+FileModDate	winfileexplorer.vim	/^function! s:FileModDate(name)$/;"	f	language:Vim
+FileNameCmp	winfileexplorer.vim	/^function! s:FileNameCmp(line1, line2, direction)$/;"	f	language:Vim
+FileSizeCmp	winfileexplorer.vim	/^function! s:FileSizeCmp(line1, line2, direction)$/;"	f	language:Vim
+FindCreateWindow	minibufexpl.vim	/^function! <SID>FindCreateWindow(bufName, forceEdge, isExplorer, doDebug)$/;"	f	language:Vim
+FindExplorerInGroup	winmanager.vim	/^function! <SID>FindExplorerInGroup(groupn, memn)$/;"	f	language:Vim
+FindWindow	minibufexpl.vim	/^function! <SID>FindWindow(bufName, doDebug)$/;"	f	language:Vim
+FirstExplorerWindow	winmanager.vim	/^	command -nargs=0 FirstExplorerWindow :silent call <SID>GotoExplorerWindow('1')$/;"	c	language:Vim
+FoldTags	wintagexplorer.vim	/^function! <SID>FoldTags()$/;"	f	language:Vim
+FunctionComplete	code_complete.vim	/^function! FunctionComplete(fun)$/;"	f	language:Vim
+GetFileName	code_complete.vim	/^function! GetFileName()$/;"	f	language:Vim
+GetFileName	winfileexplorer.vim	/^function! s:GetFileName()$/;"	f	language:Vim
+GetFileNameEsc	winfileexplorer.vim	/^function! s:GetFileNameEsc()$/;"	f	language:Vim
+GetFullFileName	winfileexplorer.vim	/^function! s:GetFullFileName()$/;"	f	language:Vim
+GetFullFileNameEsc	winfileexplorer.vim	/^function! s:GetFullFileNameEsc()$/;"	f	language:Vim
+GetSection	winfileexplorer.vim	/^function! s:GetSection()$/;"	f	language:Vim
+GetSelectedBuffer	minibufexpl.vim	/^function! <SID>GetSelectedBuffer()$/;"	f	language:Vim
+GotoExplorerWindow	winmanager.vim	/^function! <SID>GotoExplorerWindow(which)$/;"	f	language:Vim
+GotoNextExplorerInGroup	winmanager.vim	/^function! <SID>GotoNextExplorerInGroup(name, ...)$/;"	f	language:Vim
+GotoWindow	winmanager.vim	/^function! <SID>GotoWindow(reqdWinNum)$/;"	f	language:Vim
+Grep	grep.vim	/^command! -nargs=* -complete=file Grep$/;"	c	language:Vim
+GrepAdd	grep.vim	/^command! -nargs=* -complete=file GrepAdd$/;"	c	language:Vim
+GrepArgs	grep.vim	/^command! -nargs=* GrepArgs$/;"	c	language:Vim
+GrepArgsAdd	grep.vim	/^command! -nargs=* GrepArgsAdd$/;"	c	language:Vim
+GrepBuffer	grep.vim	/^command! -nargs=* GrepBuffer$/;"	c	language:Vim
+GrepBufferAdd	grep.vim	/^command! -nargs=* GrepBufferAdd$/;"	c	language:Vim
+Grep_Cygwin_Find	grep.vim	/^    let Grep_Cygwin_Find = 0$/;"	v	language:Vim
+Grep_Default_Filelist	grep.vim	/^    let Grep_Default_Filelist = '*'$/;"	v	language:Vim
+Grep_Default_Options	grep.vim	/^    let Grep_Default_Options = ''$/;"	v	language:Vim
+Grep_Find_Path	grep.vim	/^    let Grep_Find_Path = 'find'$/;"	v	language:Vim
+Grep_Find_Use_Xargs	grep.vim	/^    let Grep_Find_Use_Xargs = 1$/;"	v	language:Vim
+Grep_Null_Device	grep.vim	/^        let Grep_Null_Device = 'NUL'$/;"	v	language:Vim
+Grep_Null_Device	grep.vim	/^        let Grep_Null_Device = '\/dev\/null'$/;"	v	language:Vim
+Grep_OpenQuickfixWindow	grep.vim	/^    let Grep_OpenQuickfixWindow = 1$/;"	v	language:Vim
+Grep_Path	grep.vim	/^    let Grep_Path = 'grep'$/;"	v	language:Vim
+Grep_Shell_Escape_Char	grep.vim	/^        let Grep_Shell_Escape_Char = ''$/;"	v	language:Vim
+Grep_Shell_Escape_Char	grep.vim	/^        let Grep_Shell_Escape_Char = '\\'$/;"	v	language:Vim
+Grep_Shell_Quote_Char	grep.vim	/^        let Grep_Shell_Quote_Char = "'"$/;"	v	language:Vim
+Grep_Shell_Quote_Char	grep.vim	/^        let Grep_Shell_Quote_Char = ''$/;"	v	language:Vim
+Grep_Skip_Dirs	grep.vim	/^    let Grep_Skip_Dirs = 'RCS CVS SCCS'$/;"	v	language:Vim
+Grep_Skip_Files	grep.vim	/^    let Grep_Skip_Files = '*~ *,v s.*'$/;"	v	language:Vim
+Grep_Xargs_Options	grep.vim	/^    let Grep_Xargs_Options = '--null'$/;"	v	language:Vim
+Grep_Xargs_Path	grep.vim	/^    let Grep_Xargs_Path = 'xargs'$/;"	v	language:Vim
+GroupTags	wintagexplorer.vim	/^function! <SID>GroupTags() range$/;"	f	language:Vim
+HasEligibleBuffers	minibufexpl.vim	/^function! <SID>HasEligibleBuffers(delBufNum)$/;"	f	language:Vim
+InitializeMRUList	winmanager.vim	/^function! <SID>InitializeMRUList()$/;"	f	language:Vim
+InitializeParameters	DoxygenToolkit.vim	/^function! s:InitializeParameters()$/;"	f	language:Vim
+IsExplorerBuffer	winmanager.vim	/^function! <SID>IsExplorerBuffer(num)$/;"	f	language:Vim
+IsExplorerGroupVisible	winmanager.vim	/^function! <SID>IsExplorerGroupVisible(i, ...)$/;"	f	language:Vim
+IsExplorerVisible	winmanager.vim	/^function! <SID>IsExplorerVisible(i)$/;"	f	language:Vim
+IsOnlyVertical	winmanager.vim	/^function! <SID>IsOnlyVertical()$/;"	f	language:Vim
+IsWinManagerVisible	winmanager.vim	/^function! IsWinManagerVisible()$/;"	f	language:Vim
+LoadView	wintagexplorer.vim	/^function! s:LoadView(foldInfo)$/;"	f	language:Vim
+MBEClick	minibufexpl.vim	/^function! s:MBEClick()$/;"	f	language:Vim
+MBEDeleteBuffer	minibufexpl.vim	/^function! <SID>MBEDeleteBuffer()$/;"	f	language:Vim
+MBEDoubleClick	minibufexpl.vim	/^function! s:MBEDoubleClick()$/;"	f	language:Vim
+MBESelectBuffer	minibufexpl.vim	/^function! <SID>MBESelectBuffer()$/;"	f	language:Vim
+MBEbn	minibufexpl.vim	/^  command! MBEbn call <SID>CycleBuffer(1)$/;"	c	language:Vim
+MBEbp	minibufexpl.vim	/^  command! MBEbp call <SID>CycleBuffer(0)$/;"	c	language:Vim
+MRUGet	winmanager.vim	/^function! <SID>MRUGet(slot)$/;"	f	language:Vim
+MRUPop	winmanager.vim	/^function! <SID>MRUPop()$/;"	f	language:Vim
+MRUPush	winmanager.vim	/^function! <SID>MRUPush()$/;"	f	language:Vim
+MarkDirs	winfileexplorer.vim	/^function! s:MarkDirs()$/;"	f	language:Vim
+Max	minibufexpl.vim	/^function! <SID>Max(argOne, argTwo)$/;"	f	language:Vim
+MiniBufExplorer	minibufexpl.vim	/^  command! MiniBufExplorer  call <SID>StartExplorer(1, -1)$/;"	c	language:Vim
+MiniBufExplorer	minibufexpl.vim	/^augroup MiniBufExplorer$/;"	a	language:Vim
+MkViewNoNestedFolds	wintagexplorer.vim	/^function! s:MkViewNoNestedFolds()$/;"	f	language:Vim
+OnlyExplorerWindowsOpen	winmanager.vim	/^function! <SID>OnlyExplorerWindowsOpen()$/;"	f	language:Vim
+OpenEntry	winfileexplorer.vim	/^function! s:OpenEntry()$/;"	f	language:Vim
+OpenEntryPrevWindow	winfileexplorer.vim	/^function! s:OpenEntryPrevWindow()$/;"	f	language:Vim
+OpenTag	wintagexplorer.vim	/^function! <SID>OpenTag(split)$/;"	f	language:Vim
+ParseFunctionParameters	DoxygenToolkit.vim	/^function! s:ParseFunctionParameters( lineBuffer, doc )$/;"	f	language:Vim
+ParseFunctionTemplateParameters	DoxygenToolkit.vim	/^function! s:ParseFunctionTemplateParameters( lineBuffer, doc )$/;"	f	language:Vim
+ParseParameter	DoxygenToolkit.vim	/^function! s:ParseParameter( param )$/;"	f	language:Vim
+ParseThrowParameters	DoxygenToolkit.vim	/^function! s:ParseThrowParameters( lineBuffer, doc, throwPattern )$/;"	f	language:Vim
+Path	winfileexplorer.vim	/^function! s:Path(p)$/;"	f	language:Vim
+Path	winmanager.vim	/^function! <SID>Path(p)$/;"	f	language:Vim
+PrintError	winmanager.vim	/^function! PrintError(eline)$/;"	f	language:Vim
+PrintFavDirs	winfileexplorer.vim	/^function! s:PrintFavDirs()$/;"	f	language:Vim
+Ragrep	grep.vim	/^command! -nargs=* -complete=file Ragrep$/;"	c	language:Vim
+RagrepAdd	grep.vim	/^command! -nargs=* -complete=file RagrepAdd$/;"	c	language:Vim
+RefreshWinManager	winmanager.vim	/^function! <SID>RefreshWinManager(...)$/;"	f	language:Vim
+RegisterExplorerGroup	winmanager.vim	/^function! <SID>RegisterExplorerGroup()$/;"	f	language:Vim
+Regrep	grep.vim	/^command! -nargs=* -complete=file Regrep$/;"	c	language:Vim
+RegrepAdd	grep.vim	/^command! -nargs=* -complete=file RegrepAdd$/;"	c	language:Vim
+RemoveComments	DoxygenToolkit.vim	/^function! s:RemoveComments( lineBuffer )$/;"	f	language:Vim
+RemoveSeparators	winfileexplorer.vim	/^function! s:RemoveSeparators()$/;"	f	language:Vim
+RenameFile	winfileexplorer.vim	/^function! s:RenameFile()$/;"	f	language:Vim
+RepairAltRegister	winmanager.vim	/^function! <SID>RepairAltRegister()$/;"	f	language:Vim
+ResizeAllExplorers	winmanager.vim	/^function! <SID>ResizeAllExplorers()$/;"	f	language:Vim
+ResizeWindow	minibufexpl.vim	/^function! <SID>ResizeWindow()$/;"	f	language:Vim
+RestoreFileDisplay	winfileexplorer.vim	/^function! s:RestoreFileDisplay()$/;"	f	language:Vim
+RestoreParameters	DoxygenToolkit.vim	/^function! s:RestoreParameters()$/;"	f	language:Vim
+Rfgrep	grep.vim	/^command! -nargs=* -complete=file Rfgrep$/;"	c	language:Vim
+RfgrepAdd	grep.vim	/^command! -nargs=* -complete=file RfgrepAdd$/;"	c	language:Vim
+Rgrep	grep.vim	/^command! -nargs=* -complete=file Rgrep$/;"	c	language:Vim
+RgrepAdd	grep.vim	/^command! -nargs=* -complete=file RgrepAdd$/;"	c	language:Vim
+RunGrep	grep.vim	/^function! s:RunGrep(cmd_name, grep_cmd, action, ...)$/;"	f	language:Vim
+RunGrepCmd	grep.vim	/^function! s:RunGrepCmd(cmd, pattern, action)$/;"	f	language:Vim
+RunGrepRecursive	grep.vim	/^function! s:RunGrepRecursive(cmd_name, grep_cmd, action, ...)$/;"	f	language:Vim
+RunGrepSpecial	grep.vim	/^function! s:RunGrepSpecial(cmd_name, which, action, ...)$/;"	f	language:Vim
+SVarValueWinManager	winmanager.vim	/^	command -nargs=* SVarValueWinManager :call <SID>ShowVariableValue(<args>)$/;"	c	language:Vim
+SetSuffixesLast	winfileexplorer.vim	/^function! s:SetSuffixesLast()$/;"	f	language:Vim
+Sexplore	winfileexplorer.vim	/^		command -n=? -complete=dir Sexplore :call s:StartExplorer(1, '<a>')$/;"	c	language:Vim
+ShowAllFiles	winfileexplorer.vim	/^function! s:ShowAllFiles()$/;"	f	language:Vim
+ShowBuffers	minibufexpl.vim	/^function! <SID>ShowBuffers(delBufNum)$/;"	f	language:Vim
+ShowDirectory	winfileexplorer.vim	/^function! s:ShowDirectory()$/;"	f	language:Vim
+ShowVariableValue	winmanager.vim	/^function! <SID>ShowVariableValue(...)$/;"	f	language:Vim
+Sort	winfileexplorer.vim	/^function! s:Sort(cmp,direction) range$/;"	f	language:Vim
+SortListing	winfileexplorer.vim	/^function! s:SortListing(msg)$/;"	f	language:Vim
+SortR	winfileexplorer.vim	/^function! s:SortR(start, end, cmp, direction)$/;"	f	language:Vim
+SortReverse	winfileexplorer.vim	/^function! s:SortReverse()$/;"	f	language:Vim
+SortSelect	winfileexplorer.vim	/^function! s:SortSelect()$/;"	f	language:Vim
+StartDocumentationBlock	DoxygenToolkit.vim	/^function! s:StartDocumentationBlock()$/;"	f	language:Vim
+StartExplorer	minibufexpl.vim	/^function! <SID>StartExplorer(sticky, delBufNum)$/;"	f	language:Vim
+StartExplorer	winfileexplorer.vim	/^function! s:StartExplorer(split, start_dir)$/;"	f	language:Vim
+StartTagsFileDisplay	wintagexplorer.vim	/^function! <SID>StartTagsFileDisplay()$/;"	f	language:Vim
+StartWindowsManager	winmanager.vim	/^function! <SID>StartWindowsManager()$/;"	f	language:Vim
+StopExplorer	minibufexpl.vim	/^function! <SID>StopExplorer(sticky)$/;"	f	language:Vim
+StrCmp	winfileexplorer.vim	/^function! s:StrCmp(line1, line2, direction)$/;"	f	language:Vim
+Strntok	winmanager.vim	/^fun! <SID>Strntok(s, tok, n)$/;"	f	language:Vim
+Strntok	wintagexplorer.vim	/^fun! <SID>Strntok(s, tok, n)$/;"	f	language:Vim
+Strntok2	winmanager.vim	/^fun! <SID>Strntok2(s, tok, n)$/;"	f	language:Vim
+SwitchRegion	code_complete.vim	/^function! SwitchRegion()$/;"	f	language:Vim
+TE_ShowVariableValue	wintagexplorer.vim	/^function! TE_ShowVariableValue(...)$/;"	f	language:Vim
+TMiniBufExplorer	minibufexpl.vim	/^  command! TMiniBufExplorer  call <SID>ToggleExplorer()$/;"	c	language:Vim
+TagList_IsValid	taglist.vim	/^function! TagList_IsValid()$/;"	f	language:Vim
+TagList_Start	taglist.vim	/^function! TagList_Start()$/;"	f	language:Vim
+TagList_WrapUp	taglist.vim	/^function! TagList_WrapUp()$/;"	f	language:Vim
+TagList_title	taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v	language:Vim
+TagsExplorer_IsPossible	wintagexplorer.vim	/^function! TagsExplorer_IsPossible()$/;"	f	language:Vim
+TagsExplorer_IsValid	wintagexplorer.vim	/^function! TagsExplorer_IsValid()$/;"	f	language:Vim
+TagsExplorer_Start	wintagexplorer.vim	/^function! TagsExplorer_Start()$/;"	f	language:Vim
+TagsExplorer_WrapUp	wintagexplorer.vim	/^function! TagsExplorer_WrapUp()$/;"	f	language:Vim
+Tlist	taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c	language:Vim
+TlistAddFiles	taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c	language:Vim
+TlistAddFilesRecursive	taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c	language:Vim
+TlistClose	taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c	language:Vim
+TlistDebug	taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c	language:Vim
+TlistHighlightTag	taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c	language:Vim
+TlistLock	taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c	language:Vim
+TlistMessages	taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c	language:Vim
+TlistOpen	taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c	language:Vim
+TlistSessionLoad	taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c	language:Vim
+TlistSessionSave	taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c	language:Vim
+TlistShowPrototype	taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c	language:Vim
+TlistShowTag	taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c	language:Vim
+TlistSync	taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c	language:Vim
+TlistToggle	taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c	language:Vim
+TlistUndebug	taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c	language:Vim
+TlistUnlock	taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c	language:Vim
+TlistUpdate	taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c	language:Vim
+Tlist_Add_Files	taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f	language:Vim
+Tlist_Add_Files_Recursive	taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f	language:Vim
+Tlist_Auto_Highlight_Tag	taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v	language:Vim
+Tlist_Auto_Open	taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v	language:Vim
+Tlist_Auto_Update	taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v	language:Vim
+Tlist_Ballon_Expr	taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f	language:Vim
+Tlist_Buffer_Removed	taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f	language:Vim
+Tlist_Change_Sort	taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f	language:Vim
+Tlist_Close_On_Select	taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v	language:Vim
+Tlist_Compact_Format	taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v	language:Vim
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v	language:Vim
+Tlist_Debug_Disable	taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f	language:Vim
+Tlist_Debug_Enable	taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f	language:Vim
+Tlist_Debug_Show	taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f	language:Vim
+Tlist_Detect_Filetype	taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f	language:Vim
+Tlist_Discard_FileInfo	taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f	language:Vim
+Tlist_Discard_TagInfo	taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f	language:Vim
+Tlist_Display_Prototype	taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v	language:Vim
+Tlist_Display_Tag_Scope	taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v	language:Vim
+Tlist_Enable_Fold_Column	taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v	language:Vim
+Tlist_Exe_Cmd_No_Acmds	taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f	language:Vim
+Tlist_Exit_OnlyWindow	taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v	language:Vim
+Tlist_Extract_Tag_Scope	taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f	language:Vim
+Tlist_Extract_Tagtype	taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f	language:Vim
+Tlist_FileType_Init	taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f	language:Vim
+Tlist_File_Fold_Auto_Close	taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v	language:Vim
+Tlist_Find_Nearest_Tag_Idx	taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f	language:Vim
+Tlist_GainFocus_On_ToggleOpen	taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v	language:Vim
+Tlist_Get_Buffer_Filetype	taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f	language:Vim
+Tlist_Get_File_Index	taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f	language:Vim
+Tlist_Get_Tag_Linenum	taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tag_Prototype	taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tag_Prototype_By_Line	taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f	language:Vim
+Tlist_Get_Tag_SearchPat	taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tag_Type_By_Tag	taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tagname_By_Line	taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f	language:Vim
+Tlist_Highlight_Tag_On_BufEnter	taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v	language:Vim
+Tlist_Inc_Winwidth	taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v	language:Vim
+Tlist_Inc_Winwidth	taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v	language:Vim
+Tlist_Init_File	taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Log_Msg	taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f	language:Vim
+Tlist_Max_Submenu_Items	taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v	language:Vim
+Tlist_Max_Tag_Length	taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v	language:Vim
+Tlist_Menu_Add_Base_Menu	taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f	language:Vim
+Tlist_Menu_File_Refresh	taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f	language:Vim
+Tlist_Menu_Get_Tag_Type_Cmd	taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f	language:Vim
+Tlist_Menu_Init	taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f	language:Vim
+Tlist_Menu_Jump_To_Tag	taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f	language:Vim
+Tlist_Menu_Refresh	taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f	language:Vim
+Tlist_Menu_Remove_File	taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f	language:Vim
+Tlist_Menu_Update_File	taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f	language:Vim
+Tlist_Parse_Tagline	taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f	language:Vim
+Tlist_Post_Close_Cleanup	taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f	language:Vim
+Tlist_Process_Dir	taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f	language:Vim
+Tlist_Process_File	taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Process_File_Always	taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v	language:Vim
+Tlist_Process_Filelist	taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f	language:Vim
+Tlist_Refresh	taglist.vim	/^function! s:Tlist_Refresh()$/;"	f	language:Vim
+Tlist_Refresh_Folds	taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f	language:Vim
+Tlist_Remove_File	taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f	language:Vim
+Tlist_Session_Load	taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f	language:Vim
+Tlist_Session_Save	taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f	language:Vim
+Tlist_Set_App	taglist.vim	/^function! Tlist_Set_App(name)$/;"	f	language:Vim
+Tlist_Show_Menu	taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v	language:Vim
+Tlist_Show_One_File	taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v	language:Vim
+Tlist_Skip_File	taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Sort_Type	taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v	language:Vim
+Tlist_Update_Current_File	taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f	language:Vim
+Tlist_Update_File	taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Update_Remove_List	taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f	language:Vim
+Tlist_Use_Horiz_Window	taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v	language:Vim
+Tlist_Use_Right_Window	taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v	language:Vim
+Tlist_Use_SingleClick	taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v	language:Vim
+Tlist_User_Removed_File	taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f	language:Vim
+Tlist_Vim_Session_Load	taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f	language:Vim
+Tlist_Warning_Msg	taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f	language:Vim
+Tlist_WinHeight	taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v	language:Vim
+Tlist_WinWidth	taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v	language:Vim
+Tlist_Window_Check_Auto_Open	taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f	language:Vim
+Tlist_Window_Check_Width	taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f	language:Vim
+Tlist_Window_Close	taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f	language:Vim
+Tlist_Window_Create	taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f	language:Vim
+Tlist_Window_Display_Help	taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f	language:Vim
+Tlist_Window_Exit_Only_Window	taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f	language:Vim
+Tlist_Window_Get_File_Index_By_Linenum	taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f	language:Vim
+Tlist_Window_Get_Tag_Index	taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f	language:Vim
+Tlist_Window_Get_Tag_Type_By_Linenum	taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f	language:Vim
+Tlist_Window_Goto_Window	taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f	language:Vim
+Tlist_Window_Highlight_Line	taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f	language:Vim
+Tlist_Window_Highlight_Tag	taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f	language:Vim
+Tlist_Window_Init	taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f	language:Vim
+Tlist_Window_Jump_To_Tag	taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f	language:Vim
+Tlist_Window_Mark_File_Window	taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f	language:Vim
+Tlist_Window_Move_To_File	taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f	language:Vim
+Tlist_Window_Open	taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f	language:Vim
+Tlist_Window_Open_File	taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f	language:Vim
+Tlist_Window_Open_File_Fold	taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f	language:Vim
+Tlist_Window_Refresh	taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f	language:Vim
+Tlist_Window_Refresh_File	taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Window_Remove_File_From_Display	taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f	language:Vim
+Tlist_Window_Show_Info	taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f	language:Vim
+Tlist_Window_Toggle	taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f	language:Vim
+Tlist_Window_Toggle_Help_Text	taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f	language:Vim
+Tlist_Window_Update_File	taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f	language:Vim
+Tlist_Window_Update_Line_Offsets	taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f	language:Vim
+Tlist_Window_Zoom	taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f	language:Vim
+ToggleExplorer	minibufexpl.vim	/^function! <SID>ToggleExplorer()$/;"	f	language:Vim
+ToggleHelp	winfileexplorer.vim	/^function! s:ToggleHelp()$/;"	f	language:Vim
+ToggleLongList	winfileexplorer.vim	/^function! s:ToggleLongList()$/;"	f	language:Vim
+ToggleWindowsManager	winmanager.vim	/^function! <SID>ToggleWindowsManager()$/;"	f	language:Vim
+UMiniBufExplorer	minibufexpl.vim	/^  command! UMiniBufExplorer  call <SID>AutoUpdate(-1)$/;"	c	language:Vim
+UpdateHeader	winfileexplorer.vim	/^function! s:UpdateHeader()$/;"	f	language:Vim
+WMClose	winmanager.vim	/^	command -nargs=0 WMClose :silent call <SID>CloseWindowsManager()$/;"	c	language:Vim
+WMToggle	winmanager.vim	/^	command -nargs=0 WMToggle :silent call <SID>ToggleWindowsManager()$/;"	c	language:Vim
+WManager	winmanager.vim	/^	command -nargs=0 WManager :silent call <SID>StartWindowsManager()$/;"	c	language:Vim
+WarnMsg	DoxygenToolkit.vim	/^function! s:WarnMsg( msg )$/;"	f	language:Vim
+WhichMemberVisible	winmanager.vim	/^function! <SID>WhichMemberVisible(i)$/;"	f	language:Vim
+WinManagerFileEdit	winmanager.vim	/^function! WinManagerFileEdit(bufName, split)$/;"	f	language:Vim
+WinManagerForceReSize	winmanager.vim	/^function! WinManagerForceReSize(explName)$/;"	f	language:Vim
+WinManagerGetLastEditedFile	winmanager.vim	/^function! WinManagerGetLastEditedFile(...)$/;"	f	language:Vim
+WinManagerGotoNextInGroup	winmanager.vim	/^	command -nargs=1 WinManagerGotoNextInGroup :silent call <SID>GotoNextExplorerInGroup(<args>)$/;"	c	language:Vim
+WinManagerGotoPrevInGroup	winmanager.vim	/^	command -nargs=1 WinManagerGotoPrevInGroup :silent call <SID>GotoNextExplorerInGroup(<args>,-1)$/;"	c	language:Vim
+WinManagerResumeAUs	winmanager.vim	/^function! WinManagerResumeAUs()$/;"	f	language:Vim
+WinManagerSuspendAUs	winmanager.vim	/^function! WinManagerSuspendAUs()$/;"	f	language:Vim
+fileExplorer	winmanager.vim	/^	augroup fileExplorer$/;"	a	language:Vim
+g:DoxygenToolkit_authorTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_authorTag = "@author "$/;"	v	language:Vim
+g:DoxygenToolkit_blockFooter	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_blockFooter = ""$/;"	v	language:Vim
+g:DoxygenToolkit_blockHeader	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_blockHeader = ""$/;"	v	language:Vim
+g:DoxygenToolkit_blockTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_blockTag = "@name "$/;"	v	language:Vim
+g:DoxygenToolkit_briefTag_className	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_briefTag_className = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_briefTag_enumName	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_briefTag_enumName = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_briefTag_funcName	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_briefTag_funcName = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_briefTag_namespaceName	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_briefTag_namespaceName = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_briefTag_post	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_briefTag_post = ""$/;"	v	language:Vim
+g:DoxygenToolkit_briefTag_pre	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_briefTag_pre = "@brief "$/;"	v	language:Vim
+g:DoxygenToolkit_briefTag_structName	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_briefTag_structName = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_cinoptions	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_cinoptions = "c1C1"$/;"	v	language:Vim
+g:DoxygenToolkit_classTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_classTag = "@class "$/;"	v	language:Vim
+g:DoxygenToolkit_commentType	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_commentType = "C"$/;"	v	language:Vim
+g:DoxygenToolkit_commentType	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_commentType = "C"$/;"	v	language:Vim
+g:DoxygenToolkit_compactDoc	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_compactDoc = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_compactOneLineDoc	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_compactOneLineDoc = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_dateTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_dateTag = "@date "$/;"	v	language:Vim
+g:DoxygenToolkit_endCommentBlock	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_endCommentBlock = ""$/;"	v	language:Vim
+g:DoxygenToolkit_endCommentBlock	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_endCommentBlock = "*\/"$/;"	v	language:Vim
+g:DoxygenToolkit_endCommentTag	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_endCommentTag = ""$/;"	v	language:Vim
+g:DoxygenToolkit_endCommentTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_endCommentTag = "*\/"$/;"	v	language:Vim
+g:DoxygenToolkit_fileTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_fileTag = "@file "$/;"	v	language:Vim
+g:DoxygenToolkit_ignoreForReturn	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_ignoreForReturn += s:ignoreForReturn$/;"	v	language:Vim
+g:DoxygenToolkit_ignoreForReturn	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_ignoreForReturn = s:ignoreForReturn[:]$/;"	v	language:Vim
+g:DoxygenToolkit_interCommentBlock	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_interCommentBlock = "\/\/ "$/;"	v	language:Vim
+g:DoxygenToolkit_interCommentBlock	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_interCommentBlock = "* "$/;"	v	language:Vim
+g:DoxygenToolkit_interCommentTag	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_interCommentTag = "\/\/\/ "$/;"	v	language:Vim
+g:DoxygenToolkit_interCommentTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_interCommentTag = "* "$/;"	v	language:Vim
+g:DoxygenToolkit_keepEmptyLineAfterComment	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_keepEmptyLineAfterComment = "no"$/;"	v	language:Vim
+g:DoxygenToolkit_licenseTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_licenseTag = s:licenseTag$/;"	v	language:Vim
+g:DoxygenToolkit_maxFunctionProtoLines	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_maxFunctionProtoLines = 10$/;"	v	language:Vim
+g:DoxygenToolkit_paramTag_post	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_paramTag_post = ""$/;"	v	language:Vim
+g:DoxygenToolkit_paramTag_pre	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_paramTag_pre = "@param "$/;"	v	language:Vim
+g:DoxygenToolkit_python_autoFunctionReturn	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_python_autoFunctionReturn = "yes"$/;"	v	language:Vim
+g:DoxygenToolkit_python_autoRemoveSelfParam	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_python_autoRemoveSelfParam = "yes"$/;"	v	language:Vim
+g:DoxygenToolkit_returnTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_returnTag = "@return "$/;"	v	language:Vim
+g:DoxygenToolkit_startCommentBlock	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_startCommentBlock = "\/\/ "$/;"	v	language:Vim
+g:DoxygenToolkit_startCommentBlock	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_startCommentBlock = "\/* "$/;"	v	language:Vim
+g:DoxygenToolkit_startCommentTag	DoxygenToolkit.vim	/^    let g:DoxygenToolkit_startCommentTag = "\/\/\/ "$/;"	v	language:Vim
+g:DoxygenToolkit_startCommentTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_startCommentTag = "\/** "$/;"	v	language:Vim
+g:DoxygenToolkit_templateParamTag_post	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_templateParamTag_post = ""$/;"	v	language:Vim
+g:DoxygenToolkit_templateParamTag_pre	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_templateParamTag_pre = "@tparam "$/;"	v	language:Vim
+g:DoxygenToolkit_throwTag_post	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_throwTag_post = ""$/;"	v	language:Vim
+g:DoxygenToolkit_throwTag_pre	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_throwTag_pre = "@throw " " @exception is also valid$/;"	v	language:Vim
+g:DoxygenToolkit_undocTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_undocTag = "DOX_SKIP_BLOCK"$/;"	v	language:Vim
+g:DoxygenToolkit_versionTag	DoxygenToolkit.vim	/^  let g:DoxygenToolkit_versionTag = "@version "$/;"	v	language:Vim
+g:FileExplorer_title	winfileexplorer.vim	/^let g:FileExplorer_title = "[File List]"$/;"	v	language:Vim
+g:TagsExplorerSkipError	wintagexplorer.vim	/^	let g:TagsExplorerSkipError = 0$/;"	v	language:Vim
+g:TagsExplorer_title	wintagexplorer.vim	/^let g:TagsExplorer_title = "[Tag List]"$/;"	v	language:Vim
+g:completekey	code_complete.vim	/^    let g:completekey = "<tab>"   "hotkey$/;"	v	language:Vim
+g:debugWinManager	winmanager.vim	/^let g:debugWinManager = 1$/;"	v	language:Vim
+g:defaultExplorer	winfileexplorer.vim	/^	let g:defaultExplorer = 1$/;"	v	language:Vim
+g:defaultExplorer	winmanager.vim	/^	let g:defaultExplorer = 1$/;"	v	language:Vim
+g:explDateFormat	winfileexplorer.vim	/^  let g:explDateFormat="%d %b %Y %H:%M"$/;"	v	language:Vim
+g:explDetailedHelp	winfileexplorer.vim	/^  let g:explDetailedHelp=0$/;"	v	language:Vim
+g:explDetailedList	winfileexplorer.vim	/^  let g:explDetailedList=0$/;"	v	language:Vim
+g:explDirsFirst	winfileexplorer.vim	/^  let g:explDirsFirst=1$/;"	v	language:Vim
+g:explHideFiles	winfileexplorer.vim	/^  let g:explHideFiles=''$/;"	v	language:Vim
+g:explSortBy	winfileexplorer.vim	/^  let g:explSortBy='name'$/;"	v	language:Vim
+g:explSplitBelow	winfileexplorer.vim	/^  let g:explSplitBelow = &splitbelow$/;"	v	language:Vim
+g:explSplitRight	winfileexplorer.vim	/^  let g:explSplitRight = &splitright$/;"	v	language:Vim
+g:explStartBelow	winfileexplorer.vim	/^  let g:explStartBelow = g:explSplitBelow$/;"	v	language:Vim
+g:explStartRight	winfileexplorer.vim	/^  let g:explStartRight = g:explSplitRight$/;"	v	language:Vim
+g:explSuffixesLast	winfileexplorer.vim	/^  let g:explSuffixesLast=1$/;"	v	language:Vim
+g:explUseSeparators	winfileexplorer.vim	/^  let g:explUseSeparators=0$/;"	v	language:Vim
+g:explVertical	winfileexplorer.vim	/^  let g:explVertical=0$/;"	v	language:Vim
+g:explWinSize	winfileexplorer.vim	/^  let g:explWinSize=15$/;"	v	language:Vim
+g:miniBufExplBufList	minibufexpl.vim	/^  let g:miniBufExplBufList = ''$/;"	v	language:Vim
+g:miniBufExplDoneClickSave	minibufexpl.vim	/^    let  g:miniBufExplDoneClickSave = 1$/;"	v	language:Vim
+g:miniBufExplForceDisplay	minibufexpl.vim	/^  let g:miniBufExplForceDisplay = 0$/;"	v	language:Vim
+g:miniBufExplForceSyntaxEnable	minibufexpl.vim	/^  let g:miniBufExplForceSyntaxEnable = 0$/;"	v	language:Vim
+g:miniBufExplInAutoUpdate	minibufexpl.vim	/^  let g:miniBufExplInAutoUpdate = 0$/;"	v	language:Vim
+g:miniBufExplMapCTabSwitchBufs	minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchBufs = 0$/;"	v	language:Vim
+g:miniBufExplMapCTabSwitchWindows	minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchWindows = 0$/;"	v	language:Vim
+g:miniBufExplMapWindowNav	minibufexpl.vim	/^  let g:miniBufExplMapWindowNav = 0$/;"	v	language:Vim
+g:miniBufExplMapWindowNavArrows	minibufexpl.vim	/^  let g:miniBufExplMapWindowNavArrows = 0$/;"	v	language:Vim
+g:miniBufExplMapWindowNavVim	minibufexpl.vim	/^  let g:miniBufExplMapWindowNavVim = 0$/;"	v	language:Vim
+g:miniBufExplMaxHeight	minibufexpl.vim	/^  let g:miniBufExplMaxHeight = 0$/;"	v	language:Vim
+g:miniBufExplMaxSize	minibufexpl.vim	/^  let g:miniBufExplMaxSize = g:miniBufExplMaxHeight$/;"	v	language:Vim
+g:miniBufExplMinHeight	minibufexpl.vim	/^  let g:miniBufExplMinHeight = 1$/;"	v	language:Vim
+g:miniBufExplMinSize	minibufexpl.vim	/^  let g:miniBufExplMinSize = g:miniBufExplMinHeight$/;"	v	language:Vim
+g:miniBufExplModSelTarget	minibufexpl.vim	/^  let g:miniBufExplModSelTarget = 0$/;"	v	language:Vim
+g:miniBufExplSplitBelow	minibufexpl.vim	/^  let g:miniBufExplSplitBelow = &splitbelow$/;"	v	language:Vim
+g:miniBufExplSplitToEdge	minibufexpl.vim	/^  let g:miniBufExplSplitToEdge = 1$/;"	v	language:Vim
+g:miniBufExplTabWrap	minibufexpl.vim	/^  let g:miniBufExplTabWrap = 0$/;"	v	language:Vim
+g:miniBufExplUseSingleClick	minibufexpl.vim	/^  let g:miniBufExplUseSingleClick = 0$/;"	v	language:Vim
+g:miniBufExplVSplit	minibufexpl.vim	/^  let g:miniBufExplVSplit = 0$/;"	v	language:Vim
+g:miniBufExplorerAutoUpdate	minibufexpl.vim	/^  let g:miniBufExplorerAutoUpdate = 0$/;"	v	language:Vim
+g:miniBufExplorerDebugLevel	minibufexpl.vim	/^  let g:miniBufExplorerDebugLevel = 0 $/;"	v	language:Vim
+g:miniBufExplorerDebugMode	minibufexpl.vim	/^  let g:miniBufExplorerDebugMode = 3 $/;"	v	language:Vim
+g:miniBufExplorerDebugOutput	minibufexpl.vim	/^  let g:miniBufExplorerDebugOutput = ''$/;"	v	language:Vim
+g:miniBufExplorerMoreThanOne	minibufexpl.vim	/^  let g:miniBufExplorerMoreThanOne = 2$/;"	v	language:Vim
+g:numRefs	winmanager.vim	/^let g:numRefs = 0$/;"	v	language:Vim
+g:persistentBehaviour	winmanager.vim	/^	let g:persistentBehaviour = 1$/;"	v	language:Vim
+g:re	code_complete.vim	/^    let g:re = '>`'    "region stop$/;"	v	language:Vim
+g:rs	code_complete.vim	/^    let g:rs = '`<'    "region start$/;"	v	language:Vim
+g:saveTagsDisplay	wintagexplorer.vim	/^	let g:saveTagsDisplay = 1$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template = {}$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['_'] = {}$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['_']['xt'] = "\\<c-r>=strftime(\\"%Y-%m-%d %H:%M:%S\\")\\<cr>"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c'] = {}$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['cc'] = "\/*  *\/\\<left>\\<left>\\<left>"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['cd'] = "\/**<  *\/\\<left>\\<left>\\<left>"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['de'] = "#define     "$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['ff'] = "#ifndef  \\<c-r>=GetFileName()\\<cr>\\<CR>#define  \\<c-r>=GetFileName()\\<cr>".$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['for'] = "for( ".g:rs."...".g:re." ; ".g:rs."...".g:re." ; ".g:rs."...".g:re." )\\<cr>{\\<cr>".$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['if'] = "if( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>}"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['ife'] = "if( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>} else\\<cr>{\\<cr>".g:rs."...".$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['in'] = "#include    \\"\\"\\<left>"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['is'] = "#include  <>\\<left>"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['main'] = "int main(int argc, char \\*argv\\[\\])\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>}"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['switch'] = "switch ( ".g:rs."...".g:re." )\\<cr>{\\<cr>case ".g:rs."...".g:re." :\\<cr>break;\\<cr>case ".$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['c']['while'] = "while( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>}"$/;"	v	language:Vim
+g:template	code_complete.vim	/^let g:template['cpp'] = g:template['c']$/;"	v	language:Vim
+g:user_defined_snippets	code_complete.vim	/^    let g:user_defined_snippets = "$VIMRUNTIME\/plugin\/my_snippets.vim"$/;"	v	language:Vim
+g:winManagerWidth	winmanager.vim	/^	let g:winManagerWidth = 25$/;"	v	language:Vim
+g:winManagerWindowLayout	winmanager.vim	/^	let g:winManagerWindowLayout = "FileExplorer,TagsExplorer|BufExplorer"$/;"	v	language:Vim
+loaded_DoxygenToolkit	DoxygenToolkit.vim	/^let loaded_DoxygenToolkit = 1$/;"	v	language:Vim
+loaded_explorer	winfileexplorer.vim	/^	let loaded_explorer = 1$/;"	v	language:Vim
+loaded_explorer	winmanager.vim	/^	let loaded_explorer = 1$/;"	v	language:Vim
+loaded_grep	grep.vim	/^let loaded_grep = 1$/;"	v	language:Vim
+loaded_minibufexplorer	minibufexpl.vim	/^let loaded_minibufexplorer = 1$/;"	v	language:Vim
+loaded_taglist	taglist.vim	/^            let loaded_taglist = 'no'$/;"	v	language:Vim
+loaded_taglist	taglist.vim	/^        let loaded_taglist = 'no'$/;"	v	language:Vim
+loaded_taglist	taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v	language:Vim
+loaded_taglist	taglist.vim	/^let loaded_taglist = 'available'$/;"	v	language:Vim
+loaded_winfileexplorer	winfileexplorer.vim	/^let loaded_winfileexplorer=1$/;"	v	language:Vim
+loaded_winmanager	winmanager.vim	/^let loaded_winmanager = 1$/;"	v	language:Vim
+s:Tlist_Skip_Refresh	taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v	language:Vim
+s:clickmap	minibufexpl.vim	/^  let s:clickmap = ':if bufname("%") == "-MiniBufExplorer-" <bar> call <SID>MBEClick() <bar> endif <CR>'$/;"	v	language:Vim
+s:cpo_save	grep.vim	/^let s:cpo_save = &cpo$/;"	v	language:Vim
+s:cpo_save	taglist.vim	/^let s:cpo_save = &cpo$/;"	v	language:Vim
+s:cpo_save	winfileexplorer.vim	/^let s:cpo_save = &cpo$/;"	v	language:Vim
+s:cpo_save	winmanager.vim	/^let s:cpo_save = &cpo$/;"	v	language:Vim
+s:debugIndex	minibufexpl.vim	/^let s:debugIndex = 0 $/;"	v	language:Vim
+s:doappend	code_complete.vim	/^let s:doappend = 1$/;"	v	language:Vim
+s:escfilename	winfileexplorer.vim	/^  let s:escfilename = ' %#'$/;"	v	language:Vim
+s:escfilename	winfileexplorer.vim	/^  let s:escfilename = ' \\%#'$/;"	v	language:Vim
+s:escfilename	winmanager.vim	/^	let s:escfilename = ' %#'$/;"	v	language:Vim
+s:escfilename	winmanager.vim	/^	let s:escfilename = ' \\%#'$/;"	v	language:Vim
+s:escregexp	winfileexplorer.vim	/^let s:escregexp = '\/*^$.~\\'$/;"	v	language:Vim
+s:expanded	code_complete.vim	/^let s:expanded = 0  "in case of inserting char after expand$/;"	v	language:Vim
+s:favDirs	winfileexplorer.vim	/^		let s:favDirs = expand('$HOME').'\/'$/;"	v	language:Vim
+s:favDirs	winfileexplorer.vim	/^		let s:favDirs = g:favDirs."\\\/\\n".expand('$HOME')$/;"	v	language:Vim
+s:favDirs	winfileexplorer.vim	/^let s:favDirs = substitute(s:favDirs, '\\', '\/', 'g')$/;"	v	language:Vim
+s:favDirs	winfileexplorer.vim	/^let s:favDirs = substitute(s:favDirs, '\\\/\\\/', '\\\/', 'g')$/;"	v	language:Vim
+s:ignoreForReturn	DoxygenToolkit.vim	/^let s:ignoreForReturn = ['template', 'explicit', 'inline', 'static', 'virtual', 'void\\([[:blank:]]*\\*\\)\\@!', 'const', 'volatile', 'struct', 'extern']$/;"	v	language:Vim
+s:jumppos	code_complete.vim	/^let s:jumppos = -1$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = "Copyright (C) \\<enter>\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "GNU General Public License for more details.\\<enter>\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "This program is distributed in the hope that it will be useful,\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "This program is free software; you can redistribute it and\/or\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "You should have received a copy of the GNU General Public License\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "along with this program; if not, write to the Free Software\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "as published by the Free Software Foundation; either version 2\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "but WITHOUT ANY WARRANTY; without even the implied warranty of\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "modify it under the terms of the GNU General Public License\\<enter>"$/;"	v	language:Vim
+s:licenseTag	DoxygenToolkit.vim	/^let s:licenseTag = s:licenseTag . "of the License, or (at your option) any later version.\\<enter>\\<enter>"$/;"	v	language:Vim
+s:m	minibufexpl.vim	/^    let  s:m = ':nnoremap <silent> <LEFTMOUSE> <LEFTMOUSE>'$/;"	v	language:Vim
+s:m	minibufexpl.vim	/^    let  s:m = s:m . s:clickmap$/;"	v	language:Vim
+s:m	minibufexpl.vim	/^    let  s:m = s:m . substitute(substitute(maparg('<LEFTMOUSE>', 'n'), '|', '<bar>', 'g'), '\\c^<LEFTMOUSE>', '', '')$/;"	v	language:Vim
+s:maxTabWidth	minibufexpl.vim	/^let s:maxTabWidth = 0 $/;"	v	language:Vim
+s:menu_char_prefix	taglist.vim	/^let s:menu_char_prefix =$/;"	v	language:Vim
+s:numExplorerGroups	winmanager.vim	/^let s:numExplorerGroups = 0$/;"	v	language:Vim
+s:numExplorers	winmanager.vim	/^let s:numExplorers = 0$/;"	v	language:Vim
+s:savedCursorCol	wintagexplorer.vim	/^let s:savedCursorCol = 1$/;"	v	language:Vim
+s:savedCursorRow	wintagexplorer.vim	/^let s:savedCursorRow = 1$/;"	v	language:Vim
+s:separator	winfileexplorer.vim	/^let s:separator='"---------------------------------------------------'$/;"	v	language:Vim
+s:signature_list	code_complete.vim	/^let s:signature_list = []$/;"	v	language:Vim
+s:tlist_app_name	taglist.vim	/^let s:tlist_app_name = "none"$/;"	v	language:Vim
+s:tlist_brief_help	taglist.vim	/^let s:tlist_brief_help = 1$/;"	v	language:Vim
+s:tlist_cur_file_idx	taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v	language:Vim
+s:tlist_debug	taglist.vim	/^let s:tlist_debug = 0$/;"	v	language:Vim
+s:tlist_debug_file	taglist.vim	/^let s:tlist_debug_file = ''$/;"	v	language:Vim
+s:tlist_def_asm_settings	taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v	language:Vim
+s:tlist_def_aspperl_settings	taglist.vim	/^let s:tlist_def_aspperl_settings = 'asp;f:function;s:sub;v:variable'$/;"	v	language:Vim
+s:tlist_def_aspvbs_settings	taglist.vim	/^let s:tlist_def_aspvbs_settings = 'asp;f:function;s:sub;v:variable'$/;"	v	language:Vim
+s:tlist_def_awk_settings	taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v	language:Vim
+s:tlist_def_beta_settings	taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v	language:Vim
+s:tlist_def_c_settings	taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v	language:Vim
+s:tlist_def_cobol_settings	taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v	language:Vim
+s:tlist_def_cpp_settings	taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v	language:Vim
+s:tlist_def_cs_settings	taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v	language:Vim
+s:tlist_def_csh_settings	taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v	language:Vim
+s:tlist_def_eiffel_settings	taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v	language:Vim
+s:tlist_def_erlang_settings	taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v	language:Vim
+s:tlist_def_expect_settings	taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v	language:Vim
+s:tlist_def_fortran_settings	taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v	language:Vim
+s:tlist_def_html_settings	taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:javascript function'$/;"	v	language:Vim
+s:tlist_def_java_settings	taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v	language:Vim
+s:tlist_def_javascript_settings	taglist.vim	/^let s:tlist_def_javascript_settings = 'javascript;f:function'$/;"	v	language:Vim
+s:tlist_def_lisp_settings	taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v	language:Vim
+s:tlist_def_lua_settings	taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v	language:Vim
+s:tlist_def_make_settings	taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v	language:Vim
+s:tlist_def_pascal_settings	taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v	language:Vim
+s:tlist_def_perl_settings	taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v	language:Vim
+s:tlist_def_php_settings	taglist.vim	/^let s:tlist_def_php_settings = 'php;c:class;d:constant;v:variable;f:function'$/;"	v	language:Vim
+s:tlist_def_python_settings	taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v	language:Vim
+s:tlist_def_rexx_settings	taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v	language:Vim
+s:tlist_def_ruby_settings	taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v	language:Vim
+s:tlist_def_scheme_settings	taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v	language:Vim
+s:tlist_def_sh_settings	taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v	language:Vim
+s:tlist_def_slang_settings	taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v	language:Vim
+s:tlist_def_sml_settings	taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v	language:Vim
+s:tlist_def_sql_settings	taglist.vim	/^let s:tlist_def_sql_settings = 'sql;c:cursor;F:field;P:package;r:record;' .$/;"	v	language:Vim
+s:tlist_def_tcl_settings	taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v	language:Vim
+s:tlist_def_vera_settings	taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v	language:Vim
+s:tlist_def_verilog_settings	taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v	language:Vim
+s:tlist_def_vim_settings	taglist.vim	/^let s:tlist_def_vim_settings = 'vim;a:autocmds;v:variable;f:function'$/;"	v	language:Vim
+s:tlist_def_yacc_settings	taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v	language:Vim
+s:tlist_def_zsh_settings	taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v	language:Vim
+s:tlist_file_count	taglist.vim	/^let s:tlist_file_count = 0$/;"	v	language:Vim
+s:tlist_file_lnum_idx_cache	taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v	language:Vim
+s:tlist_file_name_idx_cache	taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v	language:Vim
+s:tlist_file_names	taglist.vim	/^let s:tlist_file_names=''$/;"	v	language:Vim
+s:tlist_ftype_count	taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v	language:Vim
+s:tlist_menu_empty	taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v	language:Vim
+s:tlist_msg	taglist.vim	/^    let s:tlist_msg = ''$/;"	v	language:Vim
+s:tlist_removed_flist	taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v	language:Vim
+s:tlist_sid	taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v	language:Vim
+s:tlist_win_maximized	taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v	language:Vim
+s:tlist_winsize_chgd	taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v	language:Vim
