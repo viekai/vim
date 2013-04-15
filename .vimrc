@@ -21,6 +21,7 @@ set t_Co=256
 set expandtab
 "unenable complete
 "set paste
+
 set autoindent
 set smartindent
 
@@ -57,7 +58,10 @@ let g:miniBufExplMapCTabSwitchBufs=1
 let g:miniBufExplMapWindowNavVim=1
 let g:miniBufExplorerMoreThanOne=0
 let g:miniBufExplModSelTarget=0
-
+"ignore case when do / search
+set ignorecase
+"close the prev set
+"set noignorecase
 :colorscheme lilypink
 "let g:winManagerWindowLayout='FileExplorer|TagList'
 let g:winManagerWindowLayout='TagList'
@@ -169,11 +173,35 @@ map <Leader>w <Plug>VimwikiIndex
 map <Leader>ff :LookupFile <CR>
 map <Leader>fd :LUWalk <CR>
 map <Leader>fb :LUBufs <CR>
+
+"copy a word to the sys copy board
+map <c-w> "+yaw 
+"pase the sys copy board to the txt 
+map <c-p> "+p
+"copy y
+map <c-c> "+y
+
 imap <silent><F6> ++<c-r>=strftime("%x")<cr>
+imap <silent><F7> --<c-r>=strftime("%H:%M")<cr> <c-r><cr> 
 imap <silent><Leader>a @@@<cr>
-imap <silent><Leader>t \|-
+
+"for table operation
+
+"new a table
+map tt :tabnew<cr>   
+"close the table
+map tc :tabc<cr>  
+"switch the prev table
+map tp :tabp<cr>
+"switch the next table
+map tn :tabn<cr>
+"close all the table beside the one who you are in
+map to :tabo<cr>
+"show all the tabs opend
+map ts :tabs<cr>
+
+
 "latex-suit
 let g:tex_falvor='latex'
 set iskeyword+=:
 autocmd BUfEnter *.tex set sw=2
-
